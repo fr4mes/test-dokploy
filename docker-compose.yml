@@ -2,7 +2,7 @@ services:
   web:
     build: .
     ports:
-      - "3000:3000"
+      - "1337:1337"
     environment:
       - NODE_ENV=production
     depends_on:
