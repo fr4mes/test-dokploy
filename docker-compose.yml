@@ -5,6 +5,8 @@ services:
       - "1337:1337"
     environment:
       - NODE_ENV=production
+      - PORT=1337
+      - HOSTNAME=0.0.0.0
     depends_on:
       - db
     networks:
